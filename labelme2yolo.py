@@ -71,9 +71,9 @@ def convert_labelme_to_yolo(json_dir, output_dir):
 if __name__ == "__main__":
     # SET YOUR DIRECTORIES HERE
     # Directory containing your Labelme .json files
-    INPUT_JSON_DIR = "./dataset/labels/val" 
+    INPUT_JSON_DIR = "./dataset/images/test" 
     
     # Directory where you want the YOLO .txt files to be saved
-    OUTPUT_YOLO_DIR = "./dataset/labels/val" 
+    OUTPUT_YOLO_DIR = "./dataset/labels/test" 
     
     convert_labelme_to_yolo(INPUT_JSON_DIR, OUTPUT_YOLO_DIR)
