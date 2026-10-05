@@ -2,6 +2,6 @@ from ultralytics import YOLO
 
 model = YOLO("YOLO26n_buoy_detector.pt")
 
-metrics = model.val()
+metrics = model.val(split='test')
 print(metrics.box.map)
 
