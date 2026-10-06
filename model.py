@@ -6,4 +6,5 @@ results = model.train(
         data="dataset/dataset.yaml",
         epochs=100,
         imgsz=640,
+        device="cpu",
         )
